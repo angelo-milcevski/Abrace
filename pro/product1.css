@@ -1,0 +1,507 @@
+/*View in 1410width resolution*/
+/* red border elements are gonna be with pure white background*/
+* {
+  scroll-behavior: smooth;
+  cursor: default;
+  text-align: center;
+  position: relative;
+  z-index: 0;
+  border-radius: 12px;
+}
+
+body {
+  display: block;
+}
+
+/*navigation here*/
+header {
+  width: 90%;
+  height: 75px;
+  /*border: 2px solid red;*/
+  margin: 0% 5% 0% 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.logo {
+  width: 22.5%;
+  left: -3.75%;
+}
+
+.menu {
+  left: 490px;
+}
+
+.cart {
+  left: 0px;
+}
+
+/* content holder*/
+main {
+  width: 90%;
+  /*border: 2px solid red;*/
+  margin: 0px auto 0px auto;
+  display: block;
+}
+
+/* banner picture here*/
+.section1 {
+  width: 100%;
+  height: 1000px;
+  border: 2px solid
+    /* #B5B5B5*/
+    #B5B5B5;
+  border-radius: 12px;
+  margin: 0%;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.class1 {
+  /*border: 1px solid red;*/
+  display: flex;
+  flex-wrap: wrap;
+  width: 48%;
+  height: 600px;
+}
+
+.big {
+  border: 1px solid blue;
+  display: flex;
+  height: 350px;
+  width: 92%;
+  margin: auto;
+}
+
+.small1 {
+  border: 1px solid blue;
+  display: flex;
+  height: 150px;
+  width: 25%;
+  margin: auto;
+}
+
+.small2 {
+  border: 1px solid blue;
+  display: flex;
+  height: 150px;
+  width: 25%;
+  margin: auto;
+}
+
+.small3 {
+  border: 1px solid blue;
+  display: flex;
+  height: 150px;
+  width: 25%;
+  margin: auto;
+}
+
+.class2 {
+  /*  border: 1px solid red;*/
+  display: flex;
+  width: 48%;
+  height: 600px;
+}
+
+.description {
+  border: 1px solid blue;
+  display: flex;
+  height: 550px;
+  width: 92%;
+  margin: auto;
+}
+
+.class3 {
+  /*  border: 1px solid red;*/
+  display: flex;
+  width: 48%;
+  height: 350px;
+}
+
+.reviews {
+  border: 1px solid blue;
+  display: flex;
+  height: 300px;
+  width: 92%;
+  margin: auto;
+}
+
+.class4 {
+  /*border: 1px solid red;*/
+  display: flex;
+  width: 48%;
+  height: 350px;
+}
+
+.contact {
+  border: 1px solid blue;
+  display: flex;
+  height: 300px;
+  width: 92%;
+  margin: auto;
+}
+
+footer {
+  width: 80%;
+  height: 150px;
+  /*border: 2px solid red;*/
+  margin: 0% 5% 0% 5%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0% 5% 0% 5%;
+  align-items: center;
+}
+
+.part1 {}
+
+.part2 {}
+
+.part3 {}
+
+.part4 {}
+
+.part5 {}
+
+/* Responsive*/
+/* Mobile resolution*/
+@media only screen and (max-width: 350px) {
+  body {
+    display: block;
+  }
+
+  /*Mobile navigation here*/
+  header {
+    width: 100%;
+    height: 75px;
+    /*border: 2px solid red;*/
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    overflow: hidden;
+  }
+
+  .logo {
+    width: 200%;
+    left: -40px;
+  }
+
+  .menu {
+    left: -35px;
+  }
+
+  .cart {
+    left: -10px;
+  }
+
+  /*Mobile content holder*/
+  main {
+    width: 100%;
+    /*border: 2px solid red;*/
+    margin: 0px auto 0px auto;
+    display: block;
+  }
+
+  /*Mobile banner picture here*/
+  .section1 {
+    width: 100%;
+    height: 1900px;
+    border: 2px solid
+      /* #B5B5B5*/
+      #B5B5B5;
+    border-radius: 12px;
+    margin: 0%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    z-index: 1;
+    overflow: hidden;
+  }
+
+  .class1 {
+    /*border: 1px solid red;*/
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 600px;
+  }
+
+  .big {
+    border: 1px solid blue;
+    display: flex;
+    height: 350px;
+    width: 92%;
+    margin: auto;
+  }
+
+  .small1 {
+    border: 1px solid blue;
+    display: flex;
+    height: 150px;
+    width: 40%;
+    margin: auto;
+  }
+
+  .small2 {
+    border: 1px solid blue;
+    display: flex;
+    height: 150px;
+    width: 40%;
+    margin: auto;
+  }
+
+  .small3 {
+    display: none;
+  }
+
+  .class2 {
+    /*  border: 1px solid red;*/
+    display: flex;
+    width: 100%;
+    height: 600px;
+  }
+
+  .description {
+    border: 1px solid blue;
+    display: flex;
+    height: 550px;
+    width: 92%;
+    margin: auto;
+  }
+
+  .class3 {
+    /*  border: 1px solid red;*/
+    display: flex;
+    width: 100%;
+    height: 350px;
+  }
+
+  .reviews {
+    border: 1px solid blue;
+    display: flex;
+    height: 300px;
+    width: 92%;
+    margin: auto;
+  }
+
+  .class4 {
+    /*border: 1px solid red;*/
+    display: flex;
+    width: 100%;
+    height: 350px;
+  }
+
+  .contact {
+    border: 1px solid blue;
+    display: flex;
+    height: 300px;
+    width: 92%;
+    margin: auto;
+  }
+
+  footer {
+    width: 80%;
+    height: 150px;
+    /*border: 2px solid red;*/
+    margin: 0% 5% 0% 5%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 5% 0% 5%;
+    align-items: center;
+  }
+
+  .part1 {}
+
+  .part2 {}
+
+  .part3 {}
+
+  .part4 {}
+
+  .part5 {}
+}
+
+@media only screen and (min-width: 351px) {}
+
+@media only screen and (min-width: 600px) {}
+
+/*Tablet Version */
+@media only screen and (min-width: 800px) and (max-width:1000px) {
+
+  /*Tablet navigation here*/
+  header {
+    width: 100%;
+    height: 75px;
+    /*border: 2px solid red;*/
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    overflow: hidden;
+  }
+
+  .logo {
+    width: 40%;
+    left: -50px;
+  }
+
+  .menu {
+    left: 125px;
+  }
+
+  .cart {
+    left: -10px;
+  }
+
+  /*Tablet content holder*/
+  main {
+    width: 100%;
+    /*border: 2px solid red;*/
+    margin: 0px auto 0px auto;
+    display: block;
+  }
+
+  /*Tablet banner picture here*/
+  .section1 {
+    width: 100%;
+    height: 1000px;
+    border: 2px solid
+      /* #B5B5B5*/
+      #B5B5B5;
+    border-radius: 12px;
+    margin: 0%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    z-index: 1;
+    overflow: hidden;
+  }
+
+  .class1 {
+    /*border: 1px solid red;*/
+    display: flex;
+    flex-wrap: wrap;
+    width: 48%;
+    height: 600px;
+  }
+
+  .big {
+    border: 1px solid blue;
+    display: flex;
+    height: 350px;
+    width: 92%;
+    margin: auto;
+  }
+
+  .small1 {
+    border: 1px solid blue;
+    display: flex;
+    height: 150px;
+    width: 42%;
+    margin: auto;
+  }
+
+  .small2 {
+    border: 1px solid blue;
+    display: flex;
+    height: 150px;
+    width: 42%;
+    margin: auto;
+  }
+
+  .small3 {
+    display: none;
+  }
+
+  .class2 {
+    /*  border: 1px solid red;*/
+    display: flex;
+    width: 48%;
+    height: 600px;
+  }
+
+  .description {
+    border: 1px solid blue;
+    display: flex;
+    height: 550px;
+    width: 92%;
+    margin: auto;
+  }
+
+  .class3 {
+    /*  border: 1px solid red;*/
+    display: flex;
+    width: 48%;
+    height: 350px;
+  }
+
+  .reviews {
+    border: 1px solid blue;
+    display: flex;
+    height: 300px;
+    width: 92%;
+    margin: auto;
+  }
+
+  .class4 {
+    /*border: 1px solid red;*/
+    display: flex;
+    width: 48%;
+    height: 350px;
+  }
+
+  .contact {
+    border: 1px solid blue;
+    display: flex;
+    height: 300px;
+    width: 92%;
+    margin: auto;
+  }
+
+  footer {
+    width: 80%;
+    height: 150px;
+    /*border: 2px solid red;*/
+    margin: 0% 5% 0% 5%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 5% 0% 5%;
+    align-items: center;
+  }
+
+  .part1 {}
+
+  .part2 {}
+
+  .part3 {}
+
+  .part4 {}
+
+  .part5 {}
+}
+}
+
+/*One size smaller as the original*/
+@media only screen and (min-width: 1000px) and (max-width:1409px) {}
+
+/*One size larger as the original*/
+@media only screen and (min-width:1600px) {}
+
+@media only screen and (min-width:1800px) {}
