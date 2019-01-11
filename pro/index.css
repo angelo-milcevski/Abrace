@@ -29,6 +29,14 @@ header {
   overflow: hidden;
 }
 
+button{
+    padding: 12px 24px;
+    border: none;
+    border-radius: 2px;
+    color: black;
+    background-color: yellow;
+}
+
 .logo {
   width: 22.5%;
   left: -3.75%;
