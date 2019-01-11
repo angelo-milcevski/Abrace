@@ -30,12 +30,23 @@ header {
 }
 
 button{
-    padding: 12px 24px;
+    padding: 12px 26px;
     border: none;
-    border-radius: 2px;
-    color: black;
-    background-color: yellow;
+    font-size: 15px;
+    border-radius: 4px;
+    color: white;
+    background-color: #edb95f;
+    cursor: pointer;
 }
+
+button:hover{
+  background-color: #bc8e3e;
+}
+
+.box1, .box2, .box3 img{
+    cursor: pointer;
+}
+
 
 .logo {
   width: 22.5%;
