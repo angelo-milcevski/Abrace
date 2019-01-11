@@ -29,12 +29,18 @@ header {
   overflow: hidden;
 }
 
-button{
-    padding: 12px 24px;
-    border: none;
-    border-radius: 2px;
-    color: black;
-    background-color: yellow;
+button {
+  padding: 12px 26px;
+  border: none;
+  font-size: 15px;
+  border-radius: 4px;
+  color: white;
+  background-color: #edb95f;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #bc8e3e;
 }
 
 .logo {
@@ -150,6 +156,33 @@ main {
   z-index: 1;
 }
 
+.box1:hover {
+  cursor: pointer;
+}
+
+.box2:hover {
+  cursor: pointer;
+}
+
+.box3:hover {
+  cursor: pointer;
+}
+
+.box1 img:hover {
+  cursor: pointer;
+  opacity: .5;
+}
+
+.box2 img:hover {
+  cursor: pointer;
+  opacity: .5;
+}
+
+.box3 img:hover {
+  cursor: pointer;
+  opacity: .5;
+}
+
 .box1 {
   width: 63%;
   height: 106.5%;
@@ -172,6 +205,7 @@ main {
   bottom: 0px;
   left: 0%;
   z-index: -1;
+  opacity: 1;
 }
 
 .box2 {
@@ -196,6 +230,7 @@ main {
   bottom: 280px;
   left: -25%;
   z-index: -1;
+  opacity: 1;
 }
 
 .box3 {
@@ -220,6 +255,7 @@ main {
   bottom: 110px;
   right: 20%;
   z-index: -1;
+  opacity: 1;
 }
 
 footer {
@@ -329,8 +365,8 @@ footer {
 
   /*Mobile description or articles here */
   .section2 {
-    width: 60%;
-    height: 350px;
+    width: 100%;
+    height: 400px;
     border: 2px solid #B5B5B5;
     border-radius: 12px;
     margin: -6% 0% 0% 0%;
@@ -339,8 +375,8 @@ footer {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    position: relative;
     z-index: 1;
+    padding: 0%;
     padding-bottom: 20%;
   }
 
@@ -355,7 +391,7 @@ footer {
   .about3 {
     width: 20%;
     height: 50px;
-    margin-top: 50px;
+    margin: 100px 0px -20px -20px;
   }
 
   /*Mobile content boxes here*/
