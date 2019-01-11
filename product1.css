@@ -110,6 +110,9 @@ main {
   display: flex;
   width: 48%;
   height: 600px;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .description {
@@ -118,6 +121,17 @@ main {
   height: 550px;
   width: 92%;
   margin: auto;
+  flex-wrap: wrap;
+}
+
+.description h1 {
+  width: 100%;
+}
+
+.list1 {
+  width: 75%;
+  list-style: none;
+  margin-left: -50px;
 }
 
 .class3 {
@@ -296,6 +310,8 @@ footer {
     height: 300px;
     width: 92%;
     margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
 
   .class4 {
