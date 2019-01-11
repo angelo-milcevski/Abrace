@@ -30,11 +30,17 @@ header {
 }
 
 button {
-  padding: 12px 24px;
+  padding: 12px 26px;
   border: none;
-  border-radius: 2px;
-  color: black;
-  background-color: yellow;
+  font-size: 15px;
+  border-radius: 4px;
+  color: white;
+  background-color: #edb95f;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #bc8e3e;
 }
 
 .logo {
@@ -150,6 +156,33 @@ main {
   z-index: 1;
 }
 
+.box1:hover {
+  cursor: pointer;
+}
+
+.box2:hover {
+  cursor: pointer;
+}
+
+.box3:hover {
+  cursor: pointer;
+}
+
+.box1 img:hover {
+  cursor: pointer;
+  opacity: .5;
+}
+
+.box2 img:hover {
+  cursor: pointer;
+  opacity: .5;
+}
+
+.box3 img:hover {
+  cursor: pointer;
+  opacity: .5;
+}
+
 .box1 {
   width: 63%;
   height: 106.5%;
@@ -172,6 +205,7 @@ main {
   bottom: 0px;
   left: 0%;
   z-index: -1;
+  opacity: 1;
 }
 
 .box2 {
@@ -196,6 +230,7 @@ main {
   bottom: 280px;
   left: -25%;
   z-index: -1;
+  opacity: 1;
 }
 
 .box3 {
@@ -220,6 +255,7 @@ main {
   bottom: 110px;
   right: 20%;
   z-index: -1;
+  opacity: 1;
 }
 
 footer {
