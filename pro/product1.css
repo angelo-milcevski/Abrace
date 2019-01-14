@@ -74,7 +74,7 @@ main {
 }
 
 .big {
-  border: 1px solid blue;
+  /*border: 1px solid blue;*/
   display: flex;
   height: 350px;
   width: 92%;
@@ -82,7 +82,7 @@ main {
 }
 
 .small1 {
-  border: 1px solid blue;
+  /*  border: 1px solid blue;*/
   display: flex;
   height: 150px;
   width: 25%;
@@ -90,7 +90,7 @@ main {
 }
 
 .small2 {
-  border: 1px solid blue;
+  /*  border: 1px solid blue;*/
   display: flex;
   height: 150px;
   width: 25%;
@@ -98,7 +98,7 @@ main {
 }
 
 .small3 {
-  border: 1px solid blue;
+  /*  border: 1px solid blue;*/
   display: flex;
   height: 150px;
   width: 25%;
@@ -116,7 +116,7 @@ main {
 }
 
 .description {
-  border: 1px solid blue;
+  /*  border: 1px solid blue;*/
   display: flex;
   height: 550px;
   width: 92%;
@@ -125,7 +125,14 @@ main {
 }
 
 .description h1 {
+  padding-top: 50px;
   width: 100%;
+}
+
+.description p {
+  width: 75%;
+  margin: -100px 0px 0px 72.5px;
+  line-height: 1.5;
 }
 
 .list1 {
@@ -142,7 +149,7 @@ main {
 }
 
 .reviews {
-  border: 1px solid blue;
+  /*  border: 1px solid blue;*/
   display: flex;
   height: 400px;
   width: 92%;
@@ -153,7 +160,7 @@ main {
 }
 
 .rev0 {
-  border: 1px solid blue;
+  /*  border: 1px solid blue;*/
   display: block;
   height: 10%;
   width: 90%;
@@ -161,7 +168,7 @@ main {
 }
 
 .rev1 {
-  border: 1px solid blue;
+  /*border: 1px solid blue;*/
   display: block;
   height: 35%;
   width: 45%;
@@ -169,7 +176,7 @@ main {
 }
 
 .rev2 {
-  border: 1px solid blue;
+  /*  border: 1px solid blue;*/
   display: block;
   height: 35%;
   width: 45%;
@@ -177,7 +184,7 @@ main {
 }
 
 .rev3 {
-  border: 1px solid blue;
+  /*  border: 1px solid blue;*/
   display: block;
   height: 35%;
   width: 45%;
@@ -185,7 +192,7 @@ main {
 }
 
 .rev4 {
-  border: 1px solid blue;
+  /*border: 1px solid blue;*/
   display: block;
   height: 35%;
   width: 45%;
@@ -200,7 +207,7 @@ main {
 }
 
 .contact {
-  border: 1px solid blue;
+  /*  border: 1px solid blue;*/
   display: flex;
   height: 400px;
   width: 92%;

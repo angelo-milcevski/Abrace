@@ -113,13 +113,16 @@ button {
   border: none;
   font-size: 15px;
   border-radius: 4px;
-  color: white;
-  background-color: #edb95f;
+  color: #edb95f;
+  background-color: transparent;
+  border: 2.5px solid #edb95f;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: #bc8e3e;
+  color: white;
+  /*  text-shadow: .1px .1px .1px black;*/
+  background-color: #edb95f;
 }
 
 .logo {
@@ -191,7 +194,7 @@ main {
 /* description or articles here */
 .section2 {
   width: 60%;
-  height: 300px;
+  height: 320px;
   border: 2px solid #B5B5B5;
   border-radius: 12px;
   margin: -2% 0% 0% 0%;
@@ -215,12 +218,13 @@ main {
 .about2 {
   margin-top: -10px;
   width: 80%;
-  height: 50px;
+  height: 70px;
 }
 
 .about3 {
   width: 20%;
   height: 50px;
+  margin-top: -50px;
 }
 
 /* content boxes here*/
