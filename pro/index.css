@@ -8,9 +8,10 @@
   z-index: 0;
 }
 
-#logo{
-    cursor: pointer;
+#logo {
+  cursor: pointer;
 }
+
 a {
   color: black;
 }
@@ -19,22 +20,20 @@ body {
   display: block;
 }
 
-#welcome{
-    width: 30%;
-    animation: 1.75s ease-out  line;
+#welcome {
+  width: 30%;
+  animation: 1.75s ease-out line;
 }
 
-@keyframes line{
-    
-      0% {
-      width: 0%;
+@keyframes line {
+  0% {
+    width: 0%;
   }
+
   100% {
-        width: 30%;
-
+    width: 30%;
   }
 }
-
 
 /*.section2{
     animation: 1.5s ease-out box;
@@ -42,7 +41,7 @@ body {
 
 
 @keyframes box{
-    
+
       0% {
       transform: translateY(-80px);
           opacity: 0.5;
@@ -54,56 +53,47 @@ body {
 
   }
 }*/
-
-
-#read_more{
-    animation: 1.5s ease-out appear;
-    /* animation-delay: 2s;*/
-     animation-fill-mode: both;
-
+#read_more {
+  animation: 1.5s ease-out appear;
+  /* animation-delay: 2s;*/
+  animation-fill-mode: both;
 }
 
-@keyframes appear{
-    
-      0% {
-          opacity: 0;
+@keyframes appear {
+  0% {
+    opacity: 0;
   }
-    50%{
-        opacity: 0.5;
-    }
+
+  50% {
+    opacity: 0.5;
+  }
+
   100% {
-      opacity: 1;
-
-
+    opacity: 1;
   }
-    
 }
 
-.sentence, .comfort, .stimuli, .aesthetics{
-display: inline-block;
-animation: 1s ease-out appear;
-margin-top: -5px;
-    word-spacing: 30px;
+.sentence, .comfort, .stimuli, .aesthetics {
+  display: inline-block;
+  animation: 1s ease-out appear;
+  margin-top: -5px;
+  word-spacing: 30px;
 }
 
-.stimuli{
-    animation-delay: 0s;
-    animation-fill-mode: both;
-}
-.comfort{
-    animation-delay: 1s;
-    animation-fill-mode: both;
-}
-.aesthetics{
-    animation-delay: 2s;
-    animation-fill-mode: both;
+.stimuli {
+  animation-delay: 0s;
+  animation-fill-mode: both;
 }
 
+.comfort {
+  animation-delay: 1s;
+  animation-fill-mode: both;
+}
 
-
-
-
-
+.aesthetics {
+  animation-delay: 2s;
+  animation-fill-mode: both;
+}
 
 /*navigation here*/
 header {
@@ -160,7 +150,7 @@ main {
   border: 2px solid
     /* #B5B5B5*/
     #B5B5B5;
- /* border-bottom: none; */
+  /* border-bottom: none; */
   border-radius: 12px;
   margin: 0%;
   background-color: white;
@@ -680,7 +670,7 @@ footer {
   /*Tablet description or articles here */
   .section2 {
     width: 60%;
-    height: 275px;
+    height: 300px;
     border: 2px solid #B5B5B5;
     border-radius: 12px;
     margin: -6% 0% 0% 0%;
