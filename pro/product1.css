@@ -81,28 +81,41 @@ main {
   margin: auto;
 }
 
+.big img {
+  transform: scale(2);
+  width: 72.5%;
+  height: 100%;
+  padding-top: 20px;
+  padding-left: 50px;
+}
+
 .small1 {
-  /*  border: 1px solid blue;*/
+  /*border: 1px solid blue;*/
   display: flex;
   height: 150px;
-  width: 25%;
+  width: 42%;
   margin: auto;
+}
+
+.small1 img {
+  transform: scale(3);
+  padding-bottom: 110px;
+  height: 100%;
+  width: 100%;
 }
 
 .small2 {
-  /*  border: 1px solid blue;*/
+  /*border: 1px solid blue;*/
   display: flex;
   height: 150px;
-  width: 25%;
+  width: 42%;
   margin: auto;
 }
 
-.small3 {
-  /*  border: 1px solid blue;*/
-  display: flex;
-  height: 150px;
-  width: 25%;
-  margin: auto;
+.small2 img {
+  padding-left: 50px;
+  width: 60%;
+  height: 100%;
 }
 
 .class2 {
@@ -304,7 +317,7 @@ footer {
   }
 
   .big {
-    border: 1px solid blue;
+    /*  border: 1px solid blue;*/
     display: flex;
     height: 350px;
     width: 92%;
@@ -312,7 +325,7 @@ footer {
   }
 
   .small1 {
-    border: 1px solid blue;
+    /*  border: 1px solid blue;*/
     display: flex;
     height: 150px;
     width: 40%;
@@ -320,15 +333,11 @@ footer {
   }
 
   .small2 {
-    border: 1px solid blue;
+    /*  border: 1px solid blue;*/
     display: flex;
     height: 150px;
     width: 40%;
     margin: auto;
-  }
-
-  .small3 {
-    display: none;
   }
 
   .class2 {
@@ -340,7 +349,7 @@ footer {
   }
 
   .description {
-    border: 1px solid blue;
+    /*border: 1px solid blue;*/
     display: flex;
     height: 850px;
     width: 92%;
@@ -355,7 +364,7 @@ footer {
   }
 
   .reviews {
-    border: 1px solid blue;
+    /*  border: 1px solid blue;*/
     display: flex;
     height: 620px;
     width: 92%;
@@ -365,7 +374,7 @@ footer {
   }
 
   .rev1 {
-    border: 1px solid blue;
+    /*  border: 1px solid blue;*/
     display: block;
     height: 20%;
     width: 90%;
@@ -373,7 +382,7 @@ footer {
   }
 
   .rev2 {
-    border: 1px solid blue;
+    /*  border: 1px solid blue;*/
     display: block;
     height: 20%;
     width: 90%;
@@ -381,7 +390,7 @@ footer {
   }
 
   .rev3 {
-    border: 1px solid blue;
+    /*    border: 1px solid blue;*/
     display: block;
     height: 20%;
     width: 90%;
@@ -389,7 +398,7 @@ footer {
   }
 
   .rev4 {
-    border: 1px solid blue;
+    /*  border: 1px solid blue;*/
     display: block;
     height: 20%;
     width: 90%;
@@ -404,7 +413,7 @@ footer {
   }
 
   .contact {
-    border: 1px solid blue;
+    /*  border: 1px solid blue;*/
     display: flex;
     height: 300px;
     width: 92%;
@@ -502,7 +511,7 @@ footer {
   }
 
   .big {
-    border: 1px solid blue;
+    /*border: 1px solid blue;*/
     display: flex;
     height: 350px;
     width: 92%;
@@ -510,7 +519,7 @@ footer {
   }
 
   .small1 {
-    border: 1px solid blue;
+    /*  border: 1px solid blue;*/
     display: flex;
     height: 150px;
     width: 42%;
@@ -518,15 +527,11 @@ footer {
   }
 
   .small2 {
-    border: 1px solid blue;
+    /*  border: 1px solid blue;*/
     display: flex;
     height: 150px;
     width: 42%;
     margin: auto;
-  }
-
-  .small3 {
-    display: none;
   }
 
   .class2 {
@@ -537,7 +542,7 @@ footer {
   }
 
   .description {
-    border: 1px solid blue;
+    /*  border: 1px solid blue;*/
     display: flex;
     height: 550px;
     width: 92%;
@@ -552,7 +557,7 @@ footer {
   }
 
   .reviews {
-    border: 1px solid blue;
+    /*  border: 1px solid blue;*/
     display: flex;
     height: 300px;
     width: 92%;
@@ -567,7 +572,7 @@ footer {
   }
 
   .contact {
-    border: 1px solid blue;
+    /*  border: 1px solid blue;*/
     display: flex;
     height: 300px;
     width: 92%;
